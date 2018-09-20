@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+    <title>Azure Stack Hybrid Java App</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p>Azure resource group name: <input type="text" name="azrgname" id="azrgname"/></p>
+    <p>Azure Stack resource group name: <input type="text" name="azsrgname" id="azsrgname"/></p>
+    <p>Storage account name: <input type="text" name="saname" id="saname"/></p>
+    <p>Virtual machine name: <input type="text" name="vmname" id="vmname"/></p>
+    <input type="button"  onclick="location.href='/result?vmname='+document.getElementById('vmname').value+'&azrgname='+document.getElementById('azrgname').value+'&azsrgname='+document.getElementById('azsrgname').value+'&saname='+document.getElementById('saname').value+''" value="Submit" >
+    
+</body>
+</html>
